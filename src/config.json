@@ -1,0 +1,70 @@
+{
+    "access-log-file": null,
+    "access-password": null,
+    "algo-ext": true,
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 3333,
+            "tls": false
+        },
+        {
+            "host": "::",
+            "port": 3333,
+            "tls": false
+        }
+    ],
+    "colors": true,
+    "title": true,
+    "custom-diff": 0,
+    "custom-diff-stats": false,
+    "donate-level": 7,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "algo": null,
+            "coin": "wownero",
+            "url": "127.0.0.1:34568",
+            "user": "Wo4tV7WS3qCGbva5kMp2jQ1W8yKJWmfji6RsvSbtcbC5cG4XpkJpK5f44shESS4Fdf6hYKef3uN4fDsH9cuQ8mLH2PMHtHnN3",
+            "spend-secret-key": "df841e990a47bce3bf2f01a998ee864111e86ab45aa133adbdb6baec10562807",
+            "pass": "x",
+            "rig-id": null,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": true,
+            "daemon-zmq-port": 34569
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "tls": {
+        "enabled": true,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "syslog": false,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}
